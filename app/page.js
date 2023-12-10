@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import photo from '../public/photo.jpg'
+import photo from '../public/photo.webp'
 import styles from './page.module.css'
 
 export default function Home() {
