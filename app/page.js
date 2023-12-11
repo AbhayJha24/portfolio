@@ -17,7 +17,7 @@ export default function Home() {
         <div className={styles.photobg1}></div>
         <div className={styles.photobg2}></div>
         <div className={styles.photoframe}>
-        <Image src={photo} alt='Image' className={styles.photo}></Image>
+        <Image src={photo} alt='Image' className={styles.photo} priority={true}></Image>
         </div>
       </section>
     </main>

@@ -33,6 +33,8 @@ h2 span.titleblue{
 }
 
 button.learnmore{
+  font-family: "Nunito";
+  font-weight: 900;
   width: 8em;
   height: auto;
   padding: 0.5em;
@@ -41,7 +43,7 @@ button.learnmore{
   border: none;
   outline: none;
   box-shadow: #28efe2 0px 0px 10px 0px;
-  color: #000000;
+  color: #1a1d24;
   font-size: 1.2em;
 }
 
