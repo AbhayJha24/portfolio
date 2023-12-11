@@ -5,6 +5,7 @@ main.hero{
   align-items: center;
   justify-content: center;
   column-gap: 10em;
+  row-gap: 10em;
 }
 
 section.titleSection{
@@ -74,7 +75,7 @@ div.photobg1{
 
 div.photobg2{
   position: absolute;
-  top: -4em;
+  top: -4.5em;
   padding: 2em;
   background-color: #00c2d3;
   width: 10em;
@@ -95,4 +96,45 @@ div.photoframe{
 
 .photo{
   position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (max-width:800px) {
+
+  main.hero{
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  main.hero{
+    padding: 10em 1em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  div.photobg1{
+    top: -2em;
+    width: 5em;
+    height: 5em;
+  }
+
+  div.photobg2{
+    top: -3em;
+    width: 5em;
+    height: 5em;
+  }
+  
+  div.photoframe{
+    width: 10em;
+    height: 10em;
+  }
+  
+  .photo{
+    width: 10rem;
+    height: 10rem;
+  }
 }
