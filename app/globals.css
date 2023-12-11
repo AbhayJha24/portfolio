@@ -2,3 +2,24 @@
   margin: 0px;
   padding: 0px;
 }
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../public/nunito.ttf");
+}
+
+@font-face {
+  font-family: "Nunito Italic";
+  src: url("../public/nunito-italic.ttf");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../public/rubik.ttf");
+}
+
+h2{
+  font-family: "Nunito";
+  font-size: 2em;
+  font-weight: 900;
+}

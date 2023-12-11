@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.hero}>
       <section className={styles.titleSection}>
-        <h2>Hello, It's me</h2>
+        <h2>Hello, It's Me</h2>
         <h1 className={styles.titlename}>Abhay Jha</h1>
         <h2 className={styles.herotagline}>And I'm a <span className={styles.titleblue}>Professional</span></h2>
         <p className={styles.herodesc}>Esse deserunt et aliquip irure. Pariatur ad reprehenderit ullamco esse consequat incididunt q.</p>
