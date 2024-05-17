@@ -10,7 +10,7 @@ export default function Home() {
         <h2>Hello, It's Me</h2>
         <h1 className={styles.titlename}>Abhay Jha</h1>
         <h2 className={styles.herotagline}>And I'm a <span className={styles.titleblue}>Professional</span></h2>
-        <p className={styles.herodesc}>Esse deserunt et aliquip irure. Pariatur ad reprehenderit ullamco esse consequat incididunt q.</p>
+        <p className={styles.herodesc}>Welcome to my world! I invite you to explore my portfolio, a reflection of my roots and the path I've carved in the realm of technology.</p>
         <button className={styles.learnmore}>Know More</button>
       </section>
       <section className={styles.photoSection}>
@@ -21,5 +21,17 @@ export default function Home() {
         </div>
       </section>
     </main>
+
+    /*
+    Script
+    ------
+
+    Welcome to my world! Born under the vibrant skies of Bokaro, Jharkhand, my journey began in the early 21st century.
+    My childhood was a tapestry of experiences, painted with the lush landscapes of Itanagar, Arunachal Pradesh.
+    As life unfolded, I found my way to the bustling streets of Ranchi, where I navigated through the chapters of my schooling until the 12th grade.
+
+    The quest for knowledge then propelled me to the prestigious halls of the Vellore Institute of Technology, where I honed my skills in Computer Engineering.
+    Each city left its mark, shaping me into the professional I am today. I invite you to explore my portfolio, a reflection of my roots and the path I've carved in the realm of technology.
+    */
   )
 }
